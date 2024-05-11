@@ -1,1 +1,1 @@
-# infra-best-practice
+# AI Infra best practices
