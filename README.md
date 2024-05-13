@@ -2,9 +2,9 @@
 
 This repo aims to provide a set of best practices for AI infrastructures based on consumer-grade hardware. The target audience is AI engineers who want to build their own AI infrastructures.
 
-In this repo, we use Ubuntu 24.04 as the base system. The hardware is AWS G5 instances powered by NVIDIA A10G GPUs.
+In this repo, we use Ubuntu 24.04 as the base system. The hardware is Amazon AWS G5 instances powered by NVIDIA A10G GPUs.
 
-A10G is close to RTX3060, and it's the only proper choose for consumer-grade AI infrastructures in the cloud.
+A10G is close to RTX3060, and it's the proper choice for consumer-grade AI infrastructures in Amazon AWS.
 
 <center>
 <img src="img/a10g-vs-rtx3060.png" alt="A10G vs RTX3060"/>
