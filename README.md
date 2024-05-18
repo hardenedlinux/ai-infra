@@ -16,3 +16,4 @@ A10G is close to RTX3060, and it's the proper choice for consumer-grade AI infra
 
 - [Prepare the CUDA environment in AWS G5 instances undert Ubuntu 24.04](base/aws-g5-cuda-dev-environment.md)
 - [Build llama-cpp with CUDA](base/build-llama-cpp-with-cuda.md)
+- [Setup ollama](base/ollama-setup.md)
