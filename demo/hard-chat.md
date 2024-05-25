@@ -79,3 +79,5 @@ bash scripts/download-model.sh
 
 python3 run.py
 ```
+
+The default port is 7860. You can access the chatbot at `http://localhost:7860/`. Or if you use Nginx as a reverse proxy, you can access it at 80 port.
