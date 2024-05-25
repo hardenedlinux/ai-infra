@@ -31,6 +31,12 @@ pip3 install gradio sentencepiece
 CMAKE_ARGS="-DLLAMA_CUDA=ON" FORCE_CMAKE=1 pip3 install llama-cpp-python
 ```
 
+## Install dependencies
+
+```bash
+pip3 install -r requirements.txt
+```
+
 # Run the hard-chat
 
 ## Download the model
