@@ -20,4 +20,4 @@ A10G is close to RTX3060, and it's the proper choice for consumer-grade AI infra
 
 ## Demos
 
-- [hard-chat](demo/hard-chat.md)
+- [LLM chatbot demo - hard-chat](demo/hard-chat.md)
