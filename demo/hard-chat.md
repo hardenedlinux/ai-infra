@@ -5,7 +5,7 @@
 </center>
 
 
-In this demo, we show how to build a chatbot using the Llama Chatbot model. The Llama Chatbot model is a pre-trained model that can be fine-tuned on your own dataset.
+In this demo, we show how to build a chatbot using the Llama3 model.
 
 ```bash
 git clone https://github.com/hardenedlinux/hard-chat-demo.git
