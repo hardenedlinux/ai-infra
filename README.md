@@ -21,3 +21,11 @@ A10G is close to RTX3060, and it's the proper choice for consumer-grade AI infra
 ## Demos
 
 - [LLM chatbot demo - hard-chat](demo/hard-chat.md)
+
+## AI/ML Library
+
+| AI/ML Library | Complexity | Description |
+|:--------:|:-----------------:|:----------:|
+| [PyTorch](https://pytorch.org/) | High | General-purpose AI/ML framework for building and deploying complex models across various domains.
+| [tinygrad](https://github.com/tinygrad/tinygrad) | Low | Light-weighted AI/ML framework |
+| [llm.c](https://github.com/karpathy/llm.c)| Low |  pure C/CUDA implementation |
