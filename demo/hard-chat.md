@@ -15,7 +15,7 @@ cd hard-chat-demo
 
 The test environment is Ubuntu 24.04 with NVIDIA A10G GPU.
 
-First, make sure you've installed the NVIDIA driver and CUDA Toolkit according to the [Prepare the CUDA environment in AWS G5 instances undert Ubuntu 24.04](base/aws-g5-cuda-dev-environment.md) article.
+First, make sure you've installed the NVIDIA driver and CUDA Toolkit according to the [Prepare the CUDA environment in AWS G5 instances undert Ubuntu 24.04](https://github.com/hardenedlinux/ai-infra/blob/master/base/aws-g5-cuda-dev-environment.md) article.
 
 ## If you use Nginx as a reverse proxy
 
