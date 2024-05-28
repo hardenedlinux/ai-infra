@@ -46,7 +46,7 @@ It's recommended to use virtual environments to manage the Python packages. We u
 
 ```bash
 sudo apt install virtualenv
-virtual .local
+virtualenv .local
 source .local/bin/activate
 ```
 
