@@ -6,7 +6,8 @@ The following steps show how to prepare the CUDA environment in AWS G5 instances
 ## Install the NVIDIA driver
 ```bash
 sudo apt update
-sudo apt install -y nvidia-driver-510 nvidia-utils-510
+sudo apt install -y ubuntu-drivers-common
+sudo ubuntu-drivers install nvidia
 sudo reboot
 ```
 
