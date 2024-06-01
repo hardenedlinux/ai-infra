@@ -18,7 +18,7 @@ nvidia-smi
 
 ## Install the CUDA Toolkit
 ```bash
-sudo apt nvidia-cuda-dev
+sudo apt install nvidia-cuda-dev
 ```
 
 ## Install the cuDNN
