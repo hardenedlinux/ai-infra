@@ -44,6 +44,12 @@ pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
 pip install --no-deps "trl<0.9.0" peft accelerate bitsandbytes
 ```
 
+## Prepare the dataset
+
+We use ["yahma/alpaca-cleaned"](https://huggingface.co/datasets/yahma/alpaca-cleaned) as the dataset. You can replace it with your own dataset.
+
+**The framework will download the dataset automatically when you specified it. So you don't have to download manually. Make sure your dateset namespace is correct. **
+
 ## Train a language model with unsloth
 
 Save the following code to `train.py`:
@@ -58,8 +64,6 @@ from datasets import load_dataset
 from unsloth import FastLanguageModel
 
 max_seq_length = 2048 # Supports RoPE Scaling interally, so choose any!
-# Get dataset
-dataset = load_dataset("imdb", split="train")
 
 # Load Llama model
 model, tokenizer = FastLanguageModel.from_pretrained(
@@ -82,6 +86,34 @@ model = FastLanguageModel.get_peft_model(
     random_state = 3407,
     max_seq_length = max_seq_length,
 )
+
+# Get dataset
+alpaca_prompt = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
+### Instruction:
+{}
+
+### Input:
+{}
+
+### Response:
+{}"""
+
+EOS_TOKEN = tokenizer.eos_token # Must add EOS_TOKEN
+def formatting_prompts_func(examples):
+    instructions = examples["instruction"]
+    inputs       = examples["input"]
+    outputs      = examples["output"]
+    texts = []
+    for instruction, input, output in zip(instructions, inputs, outputs):
+        # Must add EOS_TOKEN, otherwise your generation will go on forever!
+        text = alpaca_prompt.format(instruction, input, output) + EOS_TOKEN
+        texts.append(text)
+    return { "text" : texts, }
+pass
+
+dataset = load_dataset("yahma/alpaca-cleaned", split = "train")
+dataset = dataset.map(formatting_prompts_func, batched = True,)
 
 trainer = SFTTrainer(
     model = model,
