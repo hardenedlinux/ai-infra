@@ -48,7 +48,7 @@ pip install --no-deps "trl<0.9.0" peft accelerate bitsandbytes
 
 We use ["yahma/alpaca-cleaned"](https://huggingface.co/datasets/yahma/alpaca-cleaned) as the dataset. You can replace it with your own dataset.
 
-**The framework will download the dataset automatically when you specified it. So you don't have to download manually. Make sure your dateset namespace is correct. **
+*** The framework will download the dataset automatically when you specified it. So you don't have to download manually. Make sure your dateset namespace is correct. ***
 
 ## Train a language model with unsloth
 
