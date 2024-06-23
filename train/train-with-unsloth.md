@@ -14,15 +14,13 @@ In this tutorial, we train a new model with `unsloth/llama-3-8b-bnb-4bit`.
 
 ## Prerequisites
 
-
-
 The test environment is Ubuntu 24.04 with NVIDIA A10G GPU.
 
 First, make sure you've installed the NVIDIA driver and CUDA Toolkit according to the [Prepare the CUDA environment in AWS G5 instances undert Ubuntu 24.04](https://github.com/hardenedlinux/ai-infra/blob/master/base/aws-g5-cuda-dev-environment.md) article.
 
 ### Install conda
 
-We strongly recommended to use conda to manage your Python environment.
+We strongly recommended to use conda to manage your Python environment. It's the easiest way to avoid wasting time on dependency conflicts.
 
 ```bash
 wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
