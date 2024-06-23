@@ -18,6 +18,9 @@ A10G is close to RTX3060, and it's the proper choice for consumer-grade AI infra
 - [Build llama-cpp with CUDA](base/build-llama-cpp-with-cuda.md)
 - [Setup ollama](base/ollama-setup.md)
 
+## Training
+- [Train your own Llama3 with unsloth](train/train-with-unsloth.md)
+
 ## Demos
 
 - [LLM chatbot demo - hard-chat](demo/hard-chat.md)
