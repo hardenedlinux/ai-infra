@@ -135,6 +135,9 @@ trainer = SFTTrainer(
   ),
 )
 trainer.train()
+
+model.save_pretrained("lora_model") # Local saving
+tokenizer.save_pretrained("lora_model")
 ```
 
 ## Train with unsloth
@@ -143,4 +146,10 @@ trainer.train()
 python train.py
 ```
 
-Wait for the training to finish. The model will be saved in the `outputs` directory.
+Wait for the training to finish. The model will be saved in the `lora_model` directory.
+
+```bash
+ls lora_model
+
+README.md  adapter_config.json  adapter_model.safetensors  special_tokens_map.json  tokenizer.json  tokenizer_config.json
+```
