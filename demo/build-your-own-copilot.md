@@ -63,8 +63,12 @@ Model Name: codellama:7b-instruct
 
 ## Test Twinny
 
+Code complete:
+
 <img src="https://github.com/rjmacarthy/twinny/assets/5537428/69f567c0-2700-4474-b621-6099255bc87b" alt="Twinny code-complete"/>
 </center>
+
+Chat:
 
 <img src="https://github.com/rjmacarthy/twinny/assets/5537428/a5c5bb34-60f6-41f6-8226-c62cf4c17c1d" alt="Twinny Chat"/>
 </center>
