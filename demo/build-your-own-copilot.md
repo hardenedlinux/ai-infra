@@ -34,7 +34,7 @@ Or you want to [download and install manually](https://code.visualstudio.com/Dow
 See this picture that how to install Twinny:
 
 <center>
-<img src="img/twinny.jpg" alt="Twinny"/>
+<img src="../img/twinny.jpg" alt="Twinny"/>
 </center>
 
 ## Configure Twinny
@@ -42,7 +42,7 @@ See this picture that how to install Twinny:
 See the picture how to configure Twinny:
 
 <center>
-<img src="img/twinny-config.jpg" alt="Twinny Config"/>
+<img src="../img/twinny-config.jpg" alt="Twinny Config"/>
 </center>
 
 
