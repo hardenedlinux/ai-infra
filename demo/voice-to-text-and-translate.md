@@ -60,7 +60,7 @@ python run.py
 
 ### How to use
 
-First, click `record` button and say something. You can say various languages, say Chinese, Japanese...etc, and whisper model will detect and translate itautomatically.
+First, click `record` button and say something. You can say various languages, say Chinese, Japanese...etc, and whisper model will detect and translate it automatically.
 
 Then, click transcript button to get the the text you've just said.
 
