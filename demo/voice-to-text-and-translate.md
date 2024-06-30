@@ -65,12 +65,12 @@ First, click `record` button and say something. You can say various languages, s
 Then, click `transcribe` button to get the the text you've just said.
 
 <center>
-<img src="../img/vtt-0.png" alt="Whisper transcribe"/>
+<img src="../img/vtt-0.png" height=500 alt="Whisper transcribe"/>
 </center>
 
 Finally, click `translate` button to get the translation.
 
 
 <center>
-<img src="../img/vtt-1.png" alt="Whisper translate"/>
+<img src="../img/vtt-1.png" height=500 alt="Whisper translate"/>
 </center>
