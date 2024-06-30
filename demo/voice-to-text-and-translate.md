@@ -62,7 +62,7 @@ python run.py
 
 First, click `record` button and say something. You can say various languages, say Chinese, Japanese...etc, and whisper model will detect and translate it automatically.
 
-Then, click transcript button to get the the text you've just said.
+Then, click `transcribe` button to get the the text you've just said.
 
 <center>
 <img src="../img/vtt-0.png" alt="Whisper transcribe"/>
