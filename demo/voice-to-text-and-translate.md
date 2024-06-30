@@ -57,6 +57,7 @@ If you set it to `None`, the Whisper model will detect it as English in default.
 ```bash
 python run.py
 ```
+Then open your browser and visit `http://localhost:7860`.
 
 ### How to use
 
